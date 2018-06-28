@@ -1,0 +1,12 @@
+{
+    paddingX: 0,
+    paddingY: 0,
+    filterMin: Linear,
+    filterMag: Linear,
+    maxWidth: 1024,
+    maxHeight: 1024,
+    format: RGB888,
+    outputFormat: png,
+    jpegQuality: 0.9,
+    scale: [ 0.5 ],
+}
