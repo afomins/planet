@@ -1,10 +1,28 @@
+/*
+ * Planet
+ * Copyright (C) 2018 Alex Fomins
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+
 // -----------------------------------------------------------------------------
 package com.matalok.planet;
 
 //-----------------------------------------------------------------------------
 import java.util.ListIterator;
 
-import com.afomins.planet.Interfaces.ICamera;
+import com.matalok.planet.Interfaces.ICamera;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Mesh;
 import com.badlogic.gdx.graphics.Pixmap;
@@ -106,8 +124,10 @@ public class SphereSegment
         int idx = 0;
         for(SphereUtils.Surface s : m_surfaces) {
             // Set region in index array
-            s.mesh_part.indexOffset = idx;
-            s.mesh_part.numVertices = s.triangles.size() * 3;
+//            s.mesh_part.indexOffset = idx;
+//            s.mesh_part.numVertices = s.triangles.size() * 3;
+            s.mesh_part.offset = idx;
+            s.mesh_part.size = s.triangles.size() * 3;
 
             // Fill region in index array
             for(SphereTriangle t : s.triangles) {
