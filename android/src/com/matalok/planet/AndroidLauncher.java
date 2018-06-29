@@ -17,7 +17,7 @@
  */
 
 
-package com.matalok.planet.android;
+package com.matalok.planet;
 
 import android.os.Bundle;
 import com.badlogic.gdx.backends.android.AndroidApplication;
