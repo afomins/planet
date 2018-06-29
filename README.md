@@ -1,5 +1,5 @@
 # What is *"Planet"*
-*"Planet"* is yet another `libgdx` game prototypes where spaceshit flies around procedurally generated 3D planet. 
+*"Planet"* is my yet another `libgdx` game prototype where spaceshit flies around procedurally generated 3D planet. 
 
 # Downloads
  * Desktop JAR - 
@@ -17,5 +17,10 @@ Following GIFs illustrate how "*Planet*" looks:
 | <img src="https://github.com/afomins/planet/blob/master/assets-raw/planet-002.gif" width="300"> | <img src="https://github.com/afomins/planet/blob/master/assets-raw/planet-003.gif" width="300"> |
 
 # Implementation details
-
+ * `libgdx` was used as platform independent framework
+ * Spaceship model was siletly stolen from `libgdx` tutorials
+ * Planet sphere model was procedurally generated from **icosphere** as described in this tutorial -> http://blog.andreaskahler.com/2009/06/creating-icosphere-mesh-in-code.html
+ * Following [**heightmap**](https://github.com/afomins/planet/blob/master/android/assets/earth_height_map.png) was used to modify height of icosphere's vertices to generate mountains
+ * Following [**colormap**](https://github.com/afomins/planet/blob/master/android/assets/earth_surface_map.png) was used to adjust color of icosphere's vertices to separate land from see
+ 
 # How to run Desktop app
