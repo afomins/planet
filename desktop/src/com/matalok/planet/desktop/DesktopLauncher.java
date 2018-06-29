@@ -29,7 +29,7 @@ public class DesktopLauncher {
     // -------------------------------------------------------------------------
     public static void main (String[] arg) {
         LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-        config.title = "planet";
+        config.title = "planet v0.1.0 | afomins@gmail.com";
 //        config.width = 800;
 //        config.height = 600;
         config.width = 480;
