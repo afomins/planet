@@ -12,7 +12,7 @@ Following GIFs illustrate how "*Planet*" looks:
 | --|--|
 | <img src="https://github.com/afomins/planet/blob/master/assets-raw/planet-000.gif" width="300"> | <img src="https://github.com/afomins/planet/blob/master/assets-raw/planet-001.gif" width="300"> |
 
-|  Flying above South America | Shooting bulets |
+|  Flying above South America | Shooting bullets |
 | --|--|
 | <img src="https://github.com/afomins/planet/blob/master/assets-raw/planet-002.gif" width="300"> | <img src="https://github.com/afomins/planet/blob/master/assets-raw/planet-003.gif" width="300"> |
 
