@@ -1,11 +1,11 @@
-# What is *"Planet"*
+# Intro
 *"Planet"* is `libgdx` game prototype where spaceship flies above procedurally generated 3D planet. 
 
 # Downloads
  * Desktop JAR - https://github.com/afomins/planet/releases/download/v0.1.0/planet-v0.1.0.jar
  * Android APK - https://github.com/afomins/planet/releases/download/v0.1.0/planet-v0.1.0.apk
  
-# How it looks
+# GIFs
 Following GIFs illustrate how "*Planet*" looks:
 
 |  Flying above planet | Scaling and rotating around spaceship |
@@ -23,7 +23,7 @@ Following GIFs illustrate how "*Planet*" looks:
  * Following [**heightmap**](https://github.com/afomins/planet/blob/master/android/assets/earth_height_map.png) was used to modify height of icosphere's vertices to generate mountains
  * Following [**colormap**](https://github.com/afomins/planet/blob/master/android/assets/earth_surface_map.png) was used to adjust color of icosphere's vertices to separate land from see
  
-# How to build Desktop app
+# Bild instructions (Desktop JAR)
  * Clone `git@github.com:afomins/planet.git` and import *Gradle* project into your favorite IDE
  * Allow *Gradle* to download dependent packages and update project files
  * Run `com.matalok.planet.desktop.DesktopLauncher` class
